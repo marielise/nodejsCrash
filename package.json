@@ -1,0 +1,19 @@
+{
+  "name": "nodejscrash",
+  "version": "1.0.0",
+  "description": "test nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "author": "Me",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "uuid": "^7.0.1"
+  }
+}
